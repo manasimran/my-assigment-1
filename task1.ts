@@ -9,7 +9,7 @@ interface ItemPrices {
 
 let fruits: ItemPrices = { "apple": 12, "banana": 15, "orange": 20, "grapes": 30, "kiwi": 25 };
 let vegetables: ItemPrices = { "carrot": 8, "ladyfinger": 10, "broccoli": 12, "spinach": 15 };
-let groceries: ItemPrices = { "bread": 5, "milk": 3, "eggs": 2, "cereal": 7 };
+let groceries: ItemPrices = { "bread": 15, "milk": 13, "eggs": 12, "cereal": 17 };
 let categories: string[] = ["groceries", "fruits", "vegetables"];
 let cart: { name: string; price: number }[] = []; // To store items added to the cart
 
